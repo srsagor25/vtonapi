@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Welcome</title>
+
+    <style>
+      /* Custom CSS to center the content */
+      body, html {
+        height: 100%;
+      }
+
+      .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        max-width: 300px;
+        margin-top: 20px;
+      }
+
+      .image-grid img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 text-center">Virtual TryOn</h1>
+
+      <div class="image-grid">
+        <a href="http://192.168.0.142:5000/"><img src="https://i.ibb.co/ZWw4NqS/1.png" border="1" alt="Image 1"></a>
+        <a href="#"><img src="https://i.ibb.co/6mytmVP/2.png" border="1" alt="Image 2"></a>
+        <a href="#"><img src="https://i.ibb.co/Lt5XjxF/3.png" border="1" alt="Image 3"></a>
+        <a href="#"><img src="https://i.ibb.co/3y863GD/4.png" border="1" alt="Image 4"></a>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
